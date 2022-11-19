@@ -6,7 +6,7 @@ describe "Aaa grammar", ->
 
   beforeEach ->
     waitsForPromise ->
-      atom.packages.activatePackage("huaydee777")
+      atom.packages.activatePackage("huaydee111")
 
     runs ->
       grammar = atom.syntax.grammarForScopeName("source.aaa")
