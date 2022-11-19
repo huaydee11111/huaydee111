@@ -1,0 +1,14 @@
+# If this is your first time writing a language grammar, check out:
+#   - https://flight-manual.atom.io/hacking-atom/sections/creating-a-grammar/
+
+'scopeName': 'source.aaa'
+'name': 'แทงหวย เว็บหวยดี huaydee เว็บหวยออนไลน์ โดย ไม่มีเลขอั้นหวย หรือ หวยไม่มีขั้นต่ำ และยังฝาก-ถอนได้อย่างรวดเร็วและปลอดภัย'
+'fileTypes': [
+  'extension'
+]
+'patterns': [
+  {
+    'match': '^\\s*@@.*$'
+    'name': 'comment'
+  }
+]
